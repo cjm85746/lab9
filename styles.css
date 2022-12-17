@@ -1,0 +1,50 @@
+.tictactoeboard {
+    border-collapse: collapse;
+    font-size: 32 px;
+}
+
+.light, .dark {
+    width: 72px;
+    height: 72px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.light {
+    background: rgb(255,236,203);
+}
+
+.dark{
+    background:rgb(34, 204, 227)
+}
+
+.centeralign{
+    text-align: center;
+}
+
+.tableheader{
+    width: 72px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background: rgb(44, 47, 53);
+    color: rgb(255, 255, 255);
+}
+
+.tlight, .tdark {
+    width: 72px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.tlight {
+    background: rgb(174, 189, 218);
+}
+
+.tdark{
+    background:rgb(79, 149, 234)
+}
